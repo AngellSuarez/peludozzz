@@ -1,0 +1,251 @@
+@media (max-width: 768px) {
+  /* Reglas existentes */
+
+  .tituloSitio h1 {
+    font-size: 2.5rem;
+    /* Ajustar el tamaño de fuente según sea necesario */
+  }
+
+  .subtitulos h2 {
+    font-size: 1.8rem;
+    /* Ajustar el tamaño de fuente según sea necesario */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Reglas existentes */
+
+  .tituloSitio {
+    font-size: 2rem;
+    /* Ajustar el tamaño de fuente según sea necesario */
+  }
+
+  .subtitulos {
+    font-size: 1.5rem;
+    /* Ajustar el tamaño de fuente según sea necesario */
+  }
+}
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tarjetas {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagenTexto {
+    flex-direction: column;
+  }
+
+  .contenidoPagina {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .subtitulos {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    margin: 0;
+  }
+
+}
+
+/*inicio de css normal*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(7, 33, 3, 0.7);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  position: relative;
+}
+
+nav .linksNabvar {
+  display: flex;
+  margin: 2%;
+}
+
+nav .linksNabvar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav .linksNabvar ul li {
+  display: inline-block;
+}
+
+nav .linksNabvar li a {
+  color: #dce7dc;
+  text-decoration: none;
+}
+
+nav li:hover .dropdown-menu {
+  display: block;
+}
+
+nav .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(7, 33, 3, 0.7);
+  display: none;
+  width: 100%;
+  border-radius: 10%;
+}
+
+nav .dropdown-menu a {
+  color: white;
+}
+
+nav .dropdown-menu a:hover {
+  background-color: rgb(63, 119, 71);
+}
+
+/* Estilos responsive */
+
+#logo {
+  height: 70px;
+  width: 75px;
+}
+
+.tituloSitio {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3.5rem;
+  color: #dce7dc;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.fondoTitulo {
+  background-repeat: repeat;
+  background-size: fill;
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  margin: 0 auto;
+
+}
+
+.tarjetas {
+  overflow: hidden;
+  background-color: rgb(220, 231, 220, 0.2);
+  border-radius: 4%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 1);
+}
+
+.imagenTarjeta {
+  padding-top: 20px;
+}
+
+.tarjetas .contenidoTarjeta {
+  padding: 10px;
+  text-align: center;
+}
+
+.tarjetas .contenidoTarjeta h2 {
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.tarjetas .contenidoTarjeta p {
+  color: black;
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+.tarjetas .contenidoTarjeta a {
+  text-decoration: none;
+  color: rgb(201, 197, 197);
+  text-shadow: 0 10px 15px rgb(0, 0, 0, 1);
+  font-size: 30px;
+  padding-bottom: 190px;
+}
+
+.subtitulos {
+  text-align: left;
+  padding-left: 2rem;
+  font-size: 2rem;
+  color: #dce7dc;
+}
+
+
+.contenidoPagina {
+  padding-right: 10px;
+  color: #dce7dc;
+}
+
+footer {
+  background-color: #072103;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.organizadorHorizontal {
+  display:flex;
+flex-wrap: wrap;
+}
+
+.fondosPaginas {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
