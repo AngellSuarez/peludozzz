@@ -37,11 +37,7 @@
     text-align: center;
   }
 
-  .tarjetas {
-    width: 100%;
-    height: auto;
-  }
-
+  
   .imagenTexto {
     flex-direction: column;
   }
@@ -166,51 +162,6 @@ nav .dropdown-menu a:hover {
   background-size: fill;
 }
 
-.tarjetas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  height: 450px;
-  margin: 0 auto;
-
-}
-
-.tarjetas {
-  overflow: hidden;
-  background-color: rgb(220, 231, 220, 0.2);
-  border-radius: 4%;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 1);
-}
-
-.imagenTarjeta {
-  padding-top: 20px;
-}
-
-.tarjetas .contenidoTarjeta {
-  padding: 10px;
-  text-align: center;
-}
-
-.tarjetas .contenidoTarjeta h2 {
-  color: black;
-  font-size: 1.5em;
-  margin-top: 0;
-}
-
-.tarjetas .contenidoTarjeta p {
-  color: black;
-  line-height: 1.5em;
-  font-size: 0.9em;
-}
-
-.tarjetas .contenidoTarjeta a {
-  text-decoration: none;
-  color: rgb(201, 197, 197);
-  text-shadow: 0 10px 15px rgb(0, 0, 0, 1);
-  font-size: 30px;
-  padding-bottom: 190px;
-}
 
 .subtitulos {
   text-align: left;
@@ -236,10 +187,7 @@ footer {
   width: 100%;
 }
 
-.organizadorHorizontal {
-  display:flex;
-flex-wrap: wrap;
-}
+
 
 .fondosPaginas {
   background-size: cover;
